@@ -52,6 +52,10 @@ a:hover {
     border-radius: 10px;
 }
 
+a:focus {
+    outline: 4px solid #FFCC00;
+}
+
 h1 {
     margin: 1vw;
 }
@@ -174,6 +178,10 @@ video {
     box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.500);
 }
 
+video:focus {
+    outline: 4px solid #FFCC00;
+}
+
 .thumbnailcard {
     display: flex;
     flex-direction: column;
@@ -238,6 +246,12 @@ main button {
     border: none;
 }
 
+button:focus {
+    outline: 4px solid #FFCC00;
+    border-radius: 30px;
+}
+
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -266,6 +280,10 @@ footer input {
     padding: 0.5em 0;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+footer input:focus {
+    background-color: yellow;
 }
 
 footer button {
