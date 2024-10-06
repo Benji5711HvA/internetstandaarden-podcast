@@ -52,7 +52,7 @@ a:hover {
     border-radius: 10px;
 }
 
-a:focus {
+a:focus-visible {
     outline: 4px solid #FFCC00;
 }
 
@@ -178,7 +178,7 @@ video {
     box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.500);
 }
 
-video:focus {
+video:focus-visible {
     outline: 4px solid #FFCC00;
 }
 
@@ -246,9 +246,8 @@ main button {
     border: none;
 }
 
-button:focus {
+button:focus-visible {
     outline: 4px solid #FFCC00;
-    border-radius: 30px;
 }
 
 
@@ -279,11 +278,12 @@ footer input {
     margin: 1em 0;
     padding: 0.5em 0;
     border: 1px solid black;
+    text-indent: 10px;
     border-radius: 5px;
 }
 
-footer input:focus {
-    background-color: yellow;
+footer input:focus-visible {
+    outline: 4px solid #FFCC00;
 }
 
 footer button {
